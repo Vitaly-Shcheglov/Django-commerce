@@ -128,7 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def about(request):
+def home(request):
     return render(request, 'catalog/home.html')
 
 
