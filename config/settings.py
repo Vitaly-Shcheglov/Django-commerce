@@ -127,10 +127,3 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 from django.shortcuts import render
 from django.http import HttpResponse
-
-def home(request):
-    return render(request, 'catalog/home.html')
-
-
-def contact(request):
-    return render(request, 'catalog/contacts.html')
