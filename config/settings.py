@@ -81,12 +81,12 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',  # Используйте правильный движок
-        'NAME': os.getenv('NAME'),                  # Имя базы данных
-        'USER': os.getenv('USER'),                  # Пользователь базы данных
-        'PASSWORD': os.getenv('PASSWORD'),          # Пароль пользователя
-        'HOST': os.getenv('HOST'),                  # Хост базы данных
-        'PORT': os.getenv('PORT'),                  # Порт базы данных
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('NAME'),
+        'USER': os.getenv('USER'),
+        'PASSWORD': os.getenv('PASSWORD'),
+        'HOST': os.getenv('HOST'),
+        'PORT': os.getenv('PORT'),
     }
 }
 
